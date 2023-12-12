@@ -5,7 +5,7 @@ import "./style.css"
 
 export default function BookTicket() {
   return (
-    <div className='row bookingMovie backgroundRGBA'>
+    <div className='row bookingMovie ' >
         <div className='col-8'><LeftLayout/></div>
         <div className='col-4'><RightLayout/></div>
     </div>
